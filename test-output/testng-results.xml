@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<<<<<Setting up Reports & Test is getting ready>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[<<<<<Setting Done - Test can be started>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[<<<<<Trying to start browser and getting Application ready>>>>>]]>
+    </line>
+    <line>
+      <![CDATA[<<<<<Browser and Application is up and running>>>>>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-03T11:48:31Z" name="Default suite" finished-at="2022-08-03T11:49:32Z" duration-ms="60649">
+    <groups>
+    </groups>
+    <test started-at="2022-08-03T11:48:31Z" name="Default test" finished-at="2022-08-03T11:49:32Z" duration-ms="60649">
+      <class name="com.cms.testcases.ProductCatalogTest_19">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:48:30Z" name="setUpSuite" finished-at="2022-08-03T11:48:31Z" duration-ms="635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<<<<<Setting up Reports & Test is getting ready>>>>>]]>
+            </line>
+            <line>
+              <![CDATA[<<<<<Setting Done - Test can be started>>>>>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:48:31Z" name="setUp" finished-at="2022-08-03T11:48:52Z" duration-ms="21049" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<<<<<Trying to start browser and getting Application ready>>>>>]]>
+            </line>
+            <line>
+              <![CDATA[<<<<<Browser and Application is up and running>>>>>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:1, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:48:52Z" name="login" finished-at="2022-08-03T11:48:54Z" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:48:54Z" name="tearDownMethod" finished-at="2022-08-03T11:48:55Z" duration-ms="499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ProductCatalogTest_19.login()[pri:1, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="clickOnProductCatalogFromList()[pri:2, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:48:55Z" name="clickOnProductCatalogFromList" finished-at="2022-08-03T11:49:24Z" duration-ms="29487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnProductCatalogFromList -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:49:24Z" name="tearDownMethod" finished-at="2022-08-03T11:49:25Z" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnProductCatalogFromList status=SUCCESS method=ProductCatalogTest_19.clickOnProductCatalogFromList()[pri:2, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="clickOnAttributeTab()[pri:3, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:49:25Z" name="clickOnAttributeTab" finished-at="2022-08-03T11:49:27Z" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAttributeTab -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:49:27Z" name="tearDownMethod" finished-at="2022-08-03T11:49:27Z" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAttributeTab status=SUCCESS method=ProductCatalogTest_19.clickOnAttributeTab()[pri:3, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="MandatorySpecificationsTextfield()[pri:4, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:49:27Z" name="MandatorySpecificationsTextfield" finished-at="2022-08-03T11:49:31Z" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MandatorySpecificationsTextfield -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:49:31Z" name="tearDownMethod" finished-at="2022-08-03T11:49:32Z" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MandatorySpecificationsTextfield status=SUCCESS method=ProductCatalogTest_19.MandatorySpecificationsTextfield()[pri:4, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cms.testcases.ProductCatalogTest_19@3d246ea3]" started-at="2022-08-03T11:49:32Z" name="tearDown" finished-at="2022-08-03T11:49:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cms.testcases.ProductCatalogTest_19 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
